@@ -1,0 +1,10 @@
+s=set()
+print(type(s))
+setfromlist=set([1,2,3,4])
+print(setfromlist)
+print(type(setfromlist))
+s.add(5)#one value can only be added once in a set
+print(s)
+print(s.union({7,8}))#similarly s.intersection(symmetricdiffeence,isdisjointetc)
+#setfromlist.add(5)
+print(s.isdisjoint(setfromlist))
